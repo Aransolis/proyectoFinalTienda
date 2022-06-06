@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass:wght@200&family=Roboto+Flex:opsz@8..144&display=swap');
+:root {
+    --azul: #0A3F7B;
+    --azuloscuro: #021E3E;
+}
+
+.body {
+    font-family: 'Overpass', sans-serif;
+    color: var(--azul);
+    background-color: #E6F0F4;
+    background-position: center center;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: var(--azul);
+    font-family: 'Overpass', sans-serif;
+}
+
+.admin-head {
+    background-color: #AEB6BF;
+    padding-left: 2rem;
+}
+
+.admin-head a {
+    font-style: bold;
+    font-size: 21px;
+}
+
+.navbar a {
+    color: var(--azul);
+    font-family: 'Overpass', sans-serif;
+}
+
+.footer {
+    padding-top: 2rem;
+    color: var(--azuloscuro);
+    background-color: #AEB6BF;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.head {
+    color: var(--azuloscuro);
+    background-color: #AEB6BF;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer li {
+    margin-left: 5px;
+    padding: 0;
+    list-style: none;
+    position: block;
+    top: 0;
+    text-decoration: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: var(--azuloscuro);
+    font-size: 20px;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.fa-whatsapp:hover {
+    color: green;
+}
+
+.fa-instagram:hover {
+    color: brown;
+}
+
+.fa-twitter:hover {
+    color: aqua;
+}
+
+h2 h3 {
+    font-weight: bolder;
+}
+
+.body-adm th {
+    font-family: 'Overpass', sans-serif;
+}
+
+div .carrito-imp {
+    color: #021E3E;
+}
