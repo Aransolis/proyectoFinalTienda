@@ -1,0 +1,6 @@
+GET
+Invoke-RestMethod http://localhost:8080/tiendaProyecto/ws/usuarios.php? -Method GET
+GET ID USUARIO
+Invoke-RestMethod http://localhost:8080/tiendaProyecto/ws/usuarios.php?id_usuario=2 -Method GET
+POST
+Invoke-RestMethod http://localhost:8080/tiendaProyecto/ws/usuarios.php -Method POST -Body(@{correo='nuevoUsuario@gmail.com';contrasena='123';token='null';nombre= 'nuevoUsuarioActualizado';apellido='nuevoUsuarioActualizado'} | ConvertTo-Json) -ContentType "application/json"
